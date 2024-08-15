@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div id="game-title">
+        <h2>Tic Tae Toe</h2>
+      </div>
+      <div id="game-columns">
+        <div class="player-points" id="p1">
+          <div class="circle">
+            <div class="circle-inner"></div>
+          </div>
+          <hr>
+          <div class="points">
+            0
+          </div>
+        </div>
+        <div class="board">
+          <ul class="row">
+            <li class="square" id="a00"></li>
+            <li class="square" id="a01"></li>
+            <li class="square" id="a02"></li>
+          </ul>
+          <ul class="row">
+            <li class="square" id="a10"></li>
+            <li class="square" id="a11"></li>
+            <li class="square" id="a12"></li>
+          </ul>
+          <ul class="row">
+            <li class="square" id="a20"></li>
+            <li class="square" id="a21"></li>
+            <li class="square" id="a22"></li>
+          </ul>
+        </div>
+        <div class="player-points" id="p2">
+          <div class="cross">
+            <div class="cross-lines">
+              <div class="cross-line-half"></div>
+              <div class="cross-line-half rotate-180"></div>
+              <div class="cross-lines rotate-90">
+                <div class="cross-line-half"></div>
+                <div class="cross-line-half rotate-180"></div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="points">
+            0
+          </div>
+        </div>
+      </div>
+  </body>
+ 
+  <div class="shapes">
+    <div class="circle">
+      <div class="circle-inner"></div>
+    </div>
+    <div class="cross">
+      <div class="cross-lines">
+        <div class="cross-line-half"></div>
+        <div class="cross-line-half rotate-180"></div>
+        <div class="cross-lines rotate-90">
+          <div class="cross-line-half"></div>
+          <div class="cross-line-half rotate-180"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
